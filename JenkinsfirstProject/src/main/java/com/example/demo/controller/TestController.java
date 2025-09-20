@@ -12,4 +12,10 @@ public class TestController {
 		return "jenkins success";
 	}
 
+	
+	@GetMapping(value="/test")
+	public String get2()
+	{
+		return "get method call success";
+	}
 }
